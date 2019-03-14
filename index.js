@@ -7,6 +7,6 @@ function nowServing(deli){
     return "There is nobody waiting to be served!";
   }else {
     var currentServing = deli.shift();
-    return return "Currently serving " + currentServing + ".";
+    return "Currently serving " + currentServing + ".";
   }
 }
